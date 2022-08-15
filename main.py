@@ -6,7 +6,7 @@ import logging
 from pathlib import Path
 
 from telegram_menu import TelegramMenuSession
-from tests.test_connection import MyNavigationHandler, StartMessage, init_logger
+from bot.bot import MyNavigationHandler, StartMessage, init_logger
 
 
 def run() -> None:
