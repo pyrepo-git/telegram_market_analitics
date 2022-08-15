@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""telegram bot market analitics"""
+"""telegram bot market analytics."""
 
 import logging
 from pathlib import Path
@@ -10,7 +10,7 @@ from tests.test_connection import MyNavigationHandler, StartMessage, init_logger
 
 
 def run() -> None:
-    """Run the demo example."""
+    """Run the bot."""
     init_logger()
     # with (Path.home() / ".telegram_menu" / "key.txt").open() as key_h:
     with (Path(".") / "key.txt").open() as key_h:
