@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""telegram_menu demonstrator."""
+"""telegram bot market analitics"""
 
 import logging
 from pathlib import Path
